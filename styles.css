@@ -909,6 +909,17 @@ a {
     line-height: 1.6;
 }
 
+.contact-map {
+    margin-top: 40px;
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-lg);
+}
+
+.contact-map iframe {
+    display: block;
+}
+
 /* ===== FOOTER ===== */
 .footer {
     background: var(--text);
