@@ -1150,12 +1150,16 @@ a {
         gap: 4px;
         box-shadow: var(--shadow-lg);
         transform: translateY(-120%);
+        opacity: 0;
+        visibility: hidden;
         transition: var(--transition);
         z-index: 999;
     }
 
     .nav-links.active {
         transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
     }
 
     .nav-links a {
